@@ -1,3 +1,46 @@
+import random
+def even_numbers():
+    print("\t\t\t\t\tEven numbers")
+    try:
+        n = int(input())
+        a = 1
+        while a<n:
+            a += 1
+            if a%2==0:
+                print(a)
+
+    except:
+        print()
+
+#--------------------------------------
+
+def  Factorial():
+    print("\t\t\t\t\tFactorial")
+    try:
+        n = int(input())
+        a = 1
+        res = 1
+        while a<=n:
+            res *= a
+            a += 1
+            print(res)
+
+    except:
+        print("Error!")
+
+#---------------------------------------
+
+def Number_search():
+    print("\t\t\t\t\tNumber Search")
+    try:
+        while True:
+            num = int(input())
+
+            if num == 42:
+                break
+
+    except:
+        print("Error!")
 
 
 #---------------------------------------
